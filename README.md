@@ -30,7 +30,9 @@ Before starting the project, add JPA and H2 dependencied for the project.
 **Application Properties**
 
 spring.h2.console.enabled=true
+
 spring.h2.console.path=/h2
+
 spring.datasource.url=jdbc:h2:mem:stations
 
 @Entity -- Is a Java object the spring boot JPA can Manage.
